@@ -25,7 +25,7 @@ public class Web extends ReportFactory {
     private String USER_NAME = "Serdar_Tests";
     private String SAUCE_URL = "https://"+USER_NAME+":"+ACCESS_KEY+"@ondemand.us-west-1.saucelabs.com:443/wd/hub";
 
-    @Parameters({"url", "browser"})
+//    @Parameters({"url", "browser"})
     @BeforeMethod
     public void initDriver(String appUrl, String clientName){
         System.out.println("Client name: "+ clientName);
